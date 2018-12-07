@@ -1,0 +1,9 @@
+spring.cloud.config.name: node-application
+db:
+  mongo:
+    url: http://localhost:27017
+---
+profiles: dev
+db:
+  mongo:
+    url: http://dev-mongo-server:27017
