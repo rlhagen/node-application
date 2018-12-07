@@ -3,6 +3,6 @@ db:
   mongo:
     url: http://localhost:27017
 ---
-profiles: dev
+profiles: uat
 demo:
-  name: development profile
+  name: uat profile
